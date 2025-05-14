@@ -5,6 +5,7 @@ export default function TeamVotes() {
     const [countTeamA, setCountA] = useState(0);
     const [countTeamB, setCountB] = useState(0);
 
+
     return (
         <>
         

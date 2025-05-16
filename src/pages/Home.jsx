@@ -6,6 +6,7 @@ export default function Home() {
         <>
         <h1>React Playground Snippets</h1>
         <li><Link to="/components/useState/Counter">🧮 Counter</Link></li> 
+        <li><Link to="/components/useState/Counter2">🧮 Counter 2</Link></li>
         <li><Link to="/components/useState/TrainerShop">👟 Trainer Shop</Link></li> 
 
         </>

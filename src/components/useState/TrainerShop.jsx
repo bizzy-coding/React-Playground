@@ -52,17 +52,19 @@ export default function TrainerShop() {
 
       <div className="my-basket">
   <h2>Basket</h2>
-  {basket.length === 0 ? (
-    <p>Your basket is empty.</p>
-  ) : (
-    <ul>
-      {basket.map((item, index) => (
-        <li key={index}>
-          {item.name} — £{item.price}
-        </li>
-      ))}
-    </ul>
-  )}
+{
+    basket.length === 0 ? (
+        <p>Your basket is empty</p>
+    ) : (
+        <ul>
+            {basket.map((item, index) => (
+                <li key={index}>
+                {item.name} — £{item.price}
+              </li>
+            ))}
+        </ul>
+    )
+}
 </div>
 
     </>

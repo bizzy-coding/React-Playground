@@ -22,6 +22,7 @@ export default function Counter() {
         </div>
 
         <h2>The code</h2>
+        
 
 
         <pre style={{ 

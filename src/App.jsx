@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './App.css'
 import Home from "./pages/Home";
 import Counter from './components/useState/Counter'
+import Counter2 from './components/useState/Counter2'
 import TeamVotes from './components/useState/TeamVotes'
 import TrainerShop from "./components/useState/TrainerShop";
 
@@ -17,7 +18,7 @@ function App() {
   <Routes>
     <Route path="/" element={<Home />}></Route>
     <Route path="/components/useState/Counter" element={<Counter />}></Route>
-
+    <Route path="/components/useState/Counter2" element={<Counter2 />}></Route>
     <Route path="/components/useState/TrainerShop" element={<TrainerShop />}></Route>
 
   </Routes>

@@ -48,3 +48,16 @@
   background: #303030;
   margin: 1rem;
 }
+
+.image-wrap {
+  position: relative;
+
+}
+
+.like-btn {
+  all: unset;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 4rem;
+}

@@ -40,3 +40,11 @@
 .read-the-docs {
   color: #888;
 }
+
+/* new */
+
+.wrapper {
+  padding: 1rem;
+  background: #303030;
+  margin: 1rem;
+}

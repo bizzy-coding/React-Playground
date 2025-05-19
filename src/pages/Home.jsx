@@ -13,6 +13,9 @@ export default function Home() {
       <li>
         <Link to="/components/useState/TrainerShop">👟 Trainer Shop</Link>
       </li>
+      <li>
+        <Link to="/components/useState/LikeButton">❤️ Like Btn </Link>
+      </li>
     </>
   );
 }

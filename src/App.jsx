@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import "./App.css";
 import Home from "./pages/Home";
@@ -11,15 +12,13 @@ import LikeButton from "./components/useState/LikeButton";
 function App() {
   return (
     <>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/components/useState/Counter" element={<Counter />}></Route>
-          <Route path="/components/useState/UseStateBasics" element={<UseStateBasics />}></Route>
-          <Route path="/components/useState/TrainerShop" element={<TrainerShop />}></Route>
-          <Route path="/components/useState/LikeButton" element={<LikeButton />}></Route>
-        </Routes>
-      </Router>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/components/useState/Counter" element={<Counter />}></Route>
+        <Route path="/components/useState/UseStateBasics" element={<UseStateBasics />}></Route>
+        <Route path="/components/useState/TrainerShop" element={<TrainerShop />}></Route>
+        <Route path="/components/useState/LikeButton" element={<LikeButton />}></Route>
+      </Routes>
     </>
   );
 }

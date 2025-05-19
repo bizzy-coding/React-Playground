@@ -1,18 +1,19 @@
 import { useState } from "react";
 
 export default function LikeButton() {
-  const [like, setLike] = useState(false);
+  const [liked, setLiked] = useState(false);
 
   return (
     <>
-      <h1>Do you like this?</h1>
+      <div className="wrapper">
+        <div className="image-wrap">
+          <img src="https://media.istockphoto.com/id/1341193833/photo/fields-of-lupines-along-a-path.jpg?s=612x612&w=0&k=20&c=mhmXy7IvZDw4qR8CQ9ZW00LGFxHW_GAQxsyQPQQZRQI=" alt="" />
 
-      <p>Leave us a like: </p>
-
-      <button onClick={() => setLike(!like)}>
-        Like this pic?
-        {like ? "🖤" : "❤️"}
-      </button>
+          <button className="like-btn" onClick={() => setLiked(!liked)}>
+            Like this picture? {liked ? "❤️" : "🖤"}
+          </button>
+        </div>
+      </div>
     </>
   );
 }

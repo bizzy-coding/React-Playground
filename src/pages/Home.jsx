@@ -4,6 +4,8 @@ export default function Home() {
   return (
     <>
       <h1>React Playground Snippets</h1>
+      <p>A collection of interactive React components exploring key frontend patterns — from state and routing to effects and custom hooks.</p>
+
       <li>
         <Link to="/components/useState/Counter">🧮 Counter</Link>
       </li>

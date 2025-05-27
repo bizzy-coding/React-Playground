@@ -8,6 +8,7 @@ import UseStateBasics from "./components/useState/UseStateBasics";
 import TeamVotes from "./components/useState/TeamVotes";
 import TrainerShop from "./components/useState/TrainerShop";
 import LikeButton from "./components/useState/LikeButton";
+import PropsAndComponents from "./components/PropsAndComponents/PropsAndComponents";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/components/useState/UseStateBasics" element={<UseStateBasics />}></Route>
         <Route path="/components/useState/TrainerShop" element={<TrainerShop />}></Route>
         <Route path="/components/useState/LikeButton" element={<LikeButton />}></Route>
+        <Route path="components/componentsAndProps/PropsAndComponents" element={<PropsAndComponents />}></Route>
       </Routes>
     </>
   );

@@ -18,6 +18,9 @@ export default function Home() {
       <li>
         <Link to="/components/useState/LikeButton">❤️ Like Btn </Link>
       </li>
+      <li>
+        <Link to="components/PropsAndComponents/PropsAndComponents"> Prop Basics </Link>
+      </li>
     </>
   );
 }
